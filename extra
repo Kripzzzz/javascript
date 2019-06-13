@@ -1,0 +1,4 @@
+var line;
+do {
+line = prompt('Enter a number:');
+} while (!/^[0-9]+$/.test(line));
